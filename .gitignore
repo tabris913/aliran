@@ -1,0 +1,3 @@
+*.json
+!info.json
+!summary.json
