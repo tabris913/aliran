@@ -1,0 +1,2 @@
+album summary.jsonつくる
+アルバムごとの順位の統計

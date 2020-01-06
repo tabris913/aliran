@@ -181,11 +181,13 @@ def output_summary():
         'ruby': [None] * n,
         'average': [0] * n,
         'inst': [False] * n,
+        'hall_of_fame': [False] * n,
         'works': [[]] * n,
         'debut': [None] * n,
         'date': [None] * n,
         '2019u': [None] * n,
-        'initial': [None] * n}
+        'initial': [None] * n,
+        'kind': [[]] * n}
     for col0, col1 in COLUMNS:
         d[str(col0)] = [None] * n
 
@@ -207,7 +209,33 @@ def output_summary():
     with open('summary.json', 'w', encoding='utf8') as jf:
         json.dump(d, jf, ensure_ascii=False)
 
-    pandas.DataFrame(d)[['no', 'title', 'average', 'inst', 'debut', 'date', 'initial', '2005', '2006#1', '2006#2', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019u', '2019']].to_csv('summary.csv', index=False, encoding='utf8')
+    pandas.DataFrame(d)[['no',
+                         'title',
+                         'average',
+                         'inst',
+                         'hall_of_fame',
+                         'debut',
+                         'date',
+                         'initial',
+                         '2005',
+                         '2006#1',
+                         '2006#2',
+                         '2007',
+                         '2008',
+                         '2009',
+                         '2010',
+                         '2011',
+                         '2012',
+                         '2013',
+                         '2014',
+                         '2015',
+                         '2016',
+                         '2017',
+                         '2018',
+                         '2019u',
+                         '2019']].to_csv('summary.csv',
+                                         index=False,
+                                         encoding='utf8')
 
 
 def load() -> Dict[str, Dict[str, Any]]:
