@@ -237,6 +237,19 @@ def output_summary():
                                          index=False,
                                          encoding='utf8')
 
+    kinds = info['kinds']
+    d = {
+        'title': [],
+        'kind': [],
+        'date': []
+    }
+    for uid, work in works.items():
+        d['title'] += [work['title']]
+        d['kind'] += [work['kind']]
+        d['date'] += [work['release']]
+    with open('works.json', 'w', encoding='utf8') as jf:
+        json.dump(d, jf, ensure_ascii=False)
+
 
 def load() -> Dict[str, Dict[str, Any]]:
     with open(os.path.join('json', 'info.json'), encoding='utf8') as jf:
