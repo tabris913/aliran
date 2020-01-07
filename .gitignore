@@ -1,4 +1,5 @@
 *.json
+setting.py
 !info.json
 !summary.json
 !works.json

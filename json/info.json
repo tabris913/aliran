@@ -7788,6 +7788,7 @@
     "2016": 244,
     "2017": 237,
     "2018": 250,
+    "2019u": null,
     "2019": 260
   },
   "kinds": {
@@ -7795,6 +7796,7 @@
     "S-1": "Single A-Side",
     "S-2": "Single B-Side",
     "OA": "Original Album",
+    "EP": "Mini Album",
     "SA": "Strings Album",
     "CA": "Compilation Album",
     "ST": "Soundtrack",
@@ -8020,7 +8022,7 @@
       "kind": "ST",
       "release": "1998-11-25"
     },
-    "024": { "title": "Alipro-Mania", "kind": "OA", "release": "1999-12-24" },
+    "024": { "title": "Alipro-Mania", "kind": "EP", "release": "1999-12-24" },
     "025": { "title": "jamais vu", "kind": "CA", "release": "2000-08-04" },
     "026": {
       "title": "Aristocracy",
@@ -8036,7 +8038,7 @@
     },
     "029": {
       "title": "CLASSICS",
-      "kind": "OA",
+      "kind": "EP",
       "release": "2001-07-25",
       "2017a": 35
     },
