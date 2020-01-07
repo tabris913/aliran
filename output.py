@@ -8,22 +8,22 @@ import pandas
 import sympy
 
 COLUMNS = [
-    '2005',
-    '2006#1',
-    '2006#2',
-    '2007',
-    '2008',
-    '2009',
-    '2010',
-    '2011',
-    '2012',
-    '2013',
-    '2014',
-    '2015',
-    '2016',
-    '2017',
-    '2018',
-    '2019']
+    'r2005',
+    'r2006#1',
+    'r2006#2',
+    'r2007',
+    'r2008',
+    'r2009',
+    'r2010',
+    'r2011',
+    'r2012',
+    'r2013',
+    'r2014',
+    'r2015',
+    'r2016',
+    'r2017',
+    'r2018',
+    'r2019']
 
 
 def output_summary():
@@ -42,12 +42,12 @@ def output_summary():
         'works': [[]] * n,
         'debut': [None] * n,
         'date': [None] * n,
-        '2019u': [None] * n,
+        'r2019u': [None] * n,
         'initial': [None] * n,
         'kind': [[]] * n}
     works2 = [[]] * n
     for col0 in COLUMNS:
-        d[str(col0)] = [None] * n
+        d[col0] = [None] * n
 
     for uid, song in songs.items():
         index = int(uid) - 1
@@ -77,25 +77,25 @@ def output_summary():
                          'debut',
                          'date',
                          'initial',
-                         '2005',
-                         '2006#1',
-                         '2006#2',
-                         '2007',
-                         '2008',
-                         '2009',
-                         '2010',
-                         '2011',
-                         '2012',
-                         '2013',
-                         '2014',
-                         '2015',
-                         '2016',
-                         '2017',
-                         '2018',
-                         '2019u',
-                         '2019']].to_csv('summary.csv',
-                                         index=False,
-                                         encoding='utf8')
+                         'r2005',
+                         'r2006#1',
+                         'r2006#2',
+                         'r2007',
+                         'r2008',
+                         'r2009',
+                         'r2010',
+                         'r2011',
+                         'r2012',
+                         'r2013',
+                         'r2014',
+                         'r2015',
+                         'r2016',
+                         'r2017',
+                         'r2018',
+                         'r2019u',
+                         'r2019']].to_csv('summary.csv',
+                                          index=False,
+                                          encoding='utf8')
 
     # works.json
     kinds = info['kinds']
@@ -120,10 +120,9 @@ def calc_mean():
         k = int(uid)
         s = 0
         for col0 in COLUMNS:
-            key = str(col0)
-            if key not in song:
+            if col0 not in song:
                 continue
-            val = song[key]
+            val = song[col0]
             if val is not None:
                 if not isinstance(val, (int, float)):
                     print(k, val)
