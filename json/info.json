@@ -2410,7 +2410,8 @@
       "mean": [2367, 13],
       "r2019u": 100.0,
       "initial": "r2005",
-      "hall_of_fame": false
+      "hall_of_fame": false,
+      "remarks": "歌曲(竹久夢二/多忠亮) cover"
     },
     "090": {
       "title": "RABBIT WAR",
@@ -2822,7 +2823,8 @@
       "r2012": 194,
       "mean": [1139, 6],
       "initial": "r2005",
-      "hall_of_fame": false
+      "hall_of_fame": false,
+      "remarks": "「Rose Moon」の原曲"
     },
     "106": {
       "title": "Féliciter",
@@ -3783,7 +3785,7 @@
       "hall_of_fame": false
     },
     "142": {
-      "title": "Je te veux (Érik Satie)",
+      "title": "JE TE VEUX",
       "kind": ["SA"],
       "release": 2005,
       "inst": false,
@@ -3807,7 +3809,8 @@
       "mean": [2059, 10],
       "r2019u": 158.0,
       "initial": "r2006#1",
-      "hall_of_fame": false
+      "hall_of_fame": false,
+      "remarks": "Érik Satie cover"
     },
     "143": {
       "title": "亡國覚醒カタルシス",
@@ -4721,7 +4724,8 @@
       "mean": [891, 4],
       "r2019u": 194.0,
       "initial": "r2008",
-      "hall_of_fame": false
+      "hall_of_fame": false,
+      "remarks": "Chopin cover"
     },
     "181": {
       "title": "コトダマ",
@@ -6981,7 +6985,8 @@
       "r2019": 61,
       "mean": [65, 1],
       "initial": "r2015",
-      "hall_of_fame": false
+      "hall_of_fame": false,
+      "remarks": "Kate Bush cover"
     },
     "294": {
       "title": "すみれの花咲くころ",
@@ -6998,7 +7003,8 @@
       "mean": [1146, 5],
       "r2019u": 174.0,
       "initial": "r2015",
-      "hall_of_fame": false
+      "hall_of_fame": false,
+      "remarks": "Franz Doelle cover"
     },
     "295": {
       "title": "Tico Tico no Fubá",
@@ -7015,7 +7021,8 @@
       "mean": [431, 5],
       "r2019u": 40.0,
       "initial": "r2015",
-      "hall_of_fame": false
+      "hall_of_fame": false,
+      "remarks": "Zequinha cover"
     },
     "296": {
       "title": "小夜すみれ ～ある夜の森の小さなお話",
@@ -7032,7 +7039,8 @@
       "mean": [1058, 5],
       "r2019u": 194.0,
       "initial": "r2015",
-      "hall_of_fame": false
+      "hall_of_fame": false,
+      "remarks": "JohannStrauss cover"
     },
     "297": {
       "title": "Das Veilchen",
@@ -7050,7 +7058,8 @@
       "mean": [1068, 5],
       "r2019u": 122.0,
       "initial": "r2015",
-      "hall_of_fame": false
+      "hall_of_fame": false,
+      "remarks": "Mozart cover"
     },
     "298": {
       "title": "星菫",
@@ -7763,7 +7772,7 @@
       "hall_of_fame": false
     },
     "348": {
-      "title": "WALTZ FOR DEBBY (Bill Evans)",
+      "title": "WALTZ FOR DEBBY",
       "kind": ["OA"],
       "release": 2019,
       "inst": false,
@@ -7772,7 +7781,8 @@
       "r2019": 55,
       "mean": [55, 1],
       "initial": "r2019",
-      "hall_of_fame": false
+      "hall_of_fame": false,
+      "remarks": "Bill Evans cover"
     }
   },
   "max": {

@@ -44,7 +44,8 @@ def output_summary():
         'date': [None] * n,
         'r2019u': [None] * n,
         'initial': [None] * n,
-        'kind': [[]] * n}
+        'kind': [[]] * n,
+        'remarks': [None] * n}
     works2 = [[]] * n
     for col0 in COLUMNS:
         d[col0] = [None] * n
@@ -93,7 +94,8 @@ def output_summary():
                          'r2017',
                          'r2018',
                          'r2019u',
-                         'r2019']].to_csv('summary.csv',
+                         'r2019',
+                         'remarks']].to_csv('summary.csv',
                                           index=False,
                                           encoding='utf8')
 
